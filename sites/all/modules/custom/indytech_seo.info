@@ -1,0 +1,15 @@
+name = Indytech SEO
+description = SEO modules and settings
+core = 7.x
+package = Indytech
+version = 7.x-1.0
+project = indytech_seo
+dependencies[] = globalredirect
+dependencies[] = googleanalytics
+dependencies[] = page_title
+dependencies[] = path
+dependencies[] = pathauto
+dependencies[] = redirect
+dependencies[] = seo_checklist
+dependencies[] = site_map
+features[features_api][] = api:1
